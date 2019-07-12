@@ -21,7 +21,7 @@ def convert(lines):
 	return new
 
 def write_file(filename, lines):
-	with open("filename", "w") as f:
+	with open(filename, "w") as f:
 		for line in lines:
 			f.write(line + "\n")
 
